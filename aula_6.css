@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background-image: url(bg.png), url(bg.png);
+    background-repeat: repeat-x, repeat-y;
+    background-position: center, center;
+
+}
+h1{
+    margin-top: 2em; 
+    margin-right: 2em;
+    margin-bottom: 2em; 
+
+    /* cria uma margem  (em baixo, em cima, direita....)*/
+}
