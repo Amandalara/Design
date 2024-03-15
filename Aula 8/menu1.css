@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(219, 221, 223);
+    color: rgb(221, 58, 140);
+    font-size: 5em;
+    font-family: monospace;
+    text-align: center;
+}
+
+ol{
+    padding: 1em;  
+    /* espaçamento interno */
+
+}
+li{
+    display: inline;
+    /* formata os itens da lista em uma única linha */
+}
+
+a{
+    background-color: blanchedalmond;
+    color:rgb(177, 137, 137);
+    font-size: 0.9;
+    text-decoration: none;
+    /* tira a linha em baixo do texto */
+    padding: 1em 2em;
+    margin: 0.5em;
+    border-radius: 1.5em;
+}
+a:hover{
+    background-color: rgb(0, 0, 0);
+}
+a:active{
+    font-style: italic;
+}
+h1{
+   margin: 0.3;
+   font-size: 6em;
+   font-family: monospace;
+}
+
+p{
+  margin: 2em;
+  text-align: left;
+}
