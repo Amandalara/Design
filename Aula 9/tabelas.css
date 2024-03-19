@@ -1,0 +1,36 @@
+body{
+    background-color: burlywood;
+    text-align: center;
+    font-size: 2em;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+}
+
+caption{
+    font-family:  Times, 'Times New Roman', serif;
+    font-size: 2em;
+    margin: 0.5em;
+}
+table{
+    width: 60%;
+    margin: 0 auto;
+    border: 3px solid
+}
+
+td{
+    border: 1px solid black;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(218, 124, 2);
+}
+
+tr:nth-child(even){
+    background-color: rgb(211, 193, 172);
+}
