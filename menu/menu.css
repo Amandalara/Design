@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(242, 243, 231);
+    text-align: center;
+    
+}
+
+li{
+    display: inline;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: Garamond;
+    font-style: italic;
+    font-size: 2.5em;
+    border: 1px solid;
+    margin: 1.5em;
+    border-bottom:#F9F1DC;
+}
+p{
+    font-style: italic;
+}
+address{
+    font-family: Garamond;
+    margin: 5em;
+    font-size: 1.3em;
+    background-color: aliceblue;
+    padding: aliceblue;
+}
+
