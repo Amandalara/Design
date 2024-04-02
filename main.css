@@ -1,0 +1,44 @@
+*{
+    /* representa todas as marcações */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+header h1{
+    /* esse espaço formata apenas o h1 dentro do header */
+    background-color: cadetblue;
+    padding: 2em;
+    text-align: center;
+
+}
+header nav{
+    background-color: darkcyan;
+    padding: 2em;
+}
+header li{
+    display: inline-block;
+    /* coloca um do lado do outro */
+
+}
+
+header a{
+    color:white; 
+    background-color: teal;
+    text-decoration: none;
+
+}
+
+main section{
+    background-color: palevioletred;
+    width: 10em;
+    height: 15em;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 2em;
+    float: left;
+
+}
+ main{
+     width: 70em;
+ }
