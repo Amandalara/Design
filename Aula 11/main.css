@@ -1,0 +1,79 @@
+*{
+    /* representa todas as marcações */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+header h1{
+    /* esse espaço formata apenas o h1 dentro do header */
+    background-color: cadetblue;
+    padding: 2em;
+ 
+}
+header nav{
+    background-color: darkcyan;
+    padding: 2em;
+}
+header li{
+    display: inline-block;
+    /* coloca um do lado do outro */
+
+}
+
+header a{
+    color:white; 
+    background-color: teal;
+    text-decoration: none;
+
+}
+
+main section{
+    background-color: palevioletred;
+    width: 19.2em;
+    height: 15em;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+
+}
+ main{
+     margin: 0 auto;
+     /* coloca o bloco no centro quando possui a largura definida */
+     display: flex;
+     /* permite que os elementos fiquem ao lado dos blocos */
+     flex-wrap: wrap;
+     /* permite a quebra de linhas */
+     max-width: 70em; 
+     /* adapta a página de acordo com o tamanho do dispositivo */
+ }
+
+ footer{
+     background-color: rgb(143, 202, 202);
+     padding: 2em;
+ }
+
+article{
+    background-color: bisque;
+    max-width: 47em;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    min-width: 30em;
+
+}
+
+aside{
+    background-color: darkgray;
+    max-width: 15em;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+
+}
+
+figure img{
+    margin: 1em;
+    float: left;
+    border-radius: 20%;
+}
