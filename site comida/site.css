@@ -1,0 +1,44 @@
+body{
+    background-image: url(bg.png);
+}
+
+header h1{
+    color: aliceblue;
+    font-size: 29px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+header{
+    display: flex;
+    unicode-bidi: isolate;
+}
+header figure{
+    padding: 20em;
+}
+footer ol{
+    text-align: center;
+}
+
+ol a{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: forestgreen;
+    border-radius: 7em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+
+
+li{
+    display: inline;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+main{
+    text-align: center;
+}
+
