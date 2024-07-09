@@ -1,0 +1,34 @@
+div#container{
+    /* formatação da div */
+    max-width: 70em;
+    margin: 0 auto;    
+
+}
+
+body{
+    background-color: rgb(229, 227, 231);
+}
+
+section > div{
+    background-color: cadetblue;
+    padding: 1em;
+    display: flex;
+
+
+    div {
+        border: 1px solid black;
+        margin: 0.5em;
+        padding: 0.5em;
+        width: 30em;
+        height: 10em;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 2em;
+    }
+
+}
+
+span{
+    background-color: darkslategray;
+    display: inline-block;
+    width: 7em;
+}
