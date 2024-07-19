@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enquete</title>
+    <link rel="stylesheet" href="enquetee.css">
+</head>
+<body>
+    <h1>ENQUETE</h1>
+
+    <form action="dadosenviados.html">
+        <p>Qual a programação para o fim de semana?</p>
+
+        <label><input type="checkbox" name='programacao' value='cinema'>Cinema</label><br>
+        <label><input type="checkbox" name='programacao' value='teatro'>Teatro</label><br>
+        <label><input type="checkbox" name='programacao' value='netflix'>Netflix</label><br>
+        <label><input type="checkbox" name='programacao' value='bike'>Bike no parque</label><br>
+        <label><input type="checkbox" name='programacao' value='praia'>Praia</label><br>
+        <label><input type="checkbox" name='programacao' value='niver'>Niver de pitoca</label><br>
+        <!--checkbox permite que mais de um item seja selecionado-->
+        <input type='submit' value='Enviar'>
+
+
+    </form>
+
+    <form action="dadosenviados.html">
+        <p>Qual a área você mais se identifica?</p>
+        <label><input type="radio" name="area" value="design"> Design</label><br>
+        <label><input type="radio" name="area" value="programacao"> Programação</label><br>
+        <label><input type="radio" name="area" value="redes"> Redes</label><br>
+        <label><input type="radio" name="area" value="banco"> Banco de dados</label><br>
+        <!-- O input do tipo radio é necessario colocar os atributos name e value -->
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+</html>
