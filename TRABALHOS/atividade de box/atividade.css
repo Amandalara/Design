@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Inter:wght@100..900&family=Jura:wght@300..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(245, 245, 245, 1);
+}
+
+header{
+    background-image: linear-gradient( to right,#72CFED,#548798);
+    width: 100%;
+    height: 55px;
+
+}
+
+header img{
+    width: 30px;
+    height: 30px;
+    padding-left: 2em;
+    padding-top: 12px;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main section{
+    width: 230px;
+    height: 299px;
+    background: rgba(255, 255, 255, 1);
+    margin: 1.5em;
+    border: 0.5px solid rgba(157, 157, 157, 1);
+    border-radius: 4px;
+    padding-left: 1em;
+    padding: 1em;
+}
+
+main span{
+    color:rgba(195, 195, 195, 1);
+    font-family: "Inter", sans-serif;
+    line-height: 15.73px;
+    float: right;
+    
+}
+
+main h2{
+    font-family: "Inter", sans-serif;
+    font-weight: unset;
+    line-height: 29.05px;
+    font-size: 24px;
+    color: rgba(0, 92, 133, 1);
+    padding: 1em;
+}
+
+main p{
+    font-family: "Inter", sans-serif;
+    line-height: 14.52px;
+    font-size: 12px;
+
+}
