@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+}
+header{
+    text-align: left;
+    background-color: lightseagreen;
+    height: 100vh;
+    width: 8em;
+    padding: 2em;
+}
+div.principal{
+    margin: 2em;
+}
+header li{
+    list-style: none;
+    padding: 5px;
+    color: white;
+}
+
+h2{
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+main li{
+    list-style: none;
+}
+
+div.blocos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(231, 230, 230);
+}
+
+div.blocos.li{
+    display: flex;
+}
+
+div.cards{
+    margin-right: 6em;
+    margin-top: 2em;
+    border: solid black 1px;
+}
+
+div.cards.a{
+    background-color: white;
+}
