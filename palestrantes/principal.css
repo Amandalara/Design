@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 7em;
+    background-image: linear-gradient(to left,#7292A6, #224459 );
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 2em;
+}
+
+footer{
+    background-color: #224459;
+    height: 10em;
+    color: aliceblue;
+    text-align: center;
+  
+}
+
+main{
+    display: flex;    
+    
+}
