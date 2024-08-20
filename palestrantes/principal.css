@@ -23,3 +23,21 @@ main{
     display: flex;    
     
 }
+
+nav{
+    background-color: rgb(148, 181, 202);
+    padding: 2.5em;
+    height: 500px;
+}
+
+nav li{
+    list-style: none;
+    padding: 15px;
+   
+}
+nav a{
+    text-decoration: none;
+    color: #224459;
+    font-size: 2em;
+
+}
