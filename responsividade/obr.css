@@ -1,0 +1,34 @@
+body{
+    background-color: darkcyan;
+}
+
+button{
+    display: none;
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: blueviolet;
+    }
+
+@media screen and (max-width:800px){
+    body{
+        background-color: coral;
+    }
+}
+
+@media screen and (max-width:500px){
+    body{
+        background-color: rgb(97, 224, 150);
+
+    }
+    ul{
+        display: none;
+    }
+
+    button{
+        display: block;
+    }
+}
+
+ 
