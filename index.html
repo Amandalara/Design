@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+
+    <style>
+        main{
+            margin: 0 auto;
+            max-width: 70em;
+            display: grid; /* é aplicado na div CONTEINER */
+            grid-template-rows: 10em 20em 10em; /* define o valor das LINHAS (1º valor -> 1ª LINHA, ... ) */
+            grid-template-columns: 1fr 4fr 1fr;
+            grid-template-areas: 
+                "a b b"
+                "a d e"
+                "c c e";
+            gap: 1em;
+        }
+
+        main div{
+            background-color: cadetblue;
+            padding: 2em;
+            border: 1px solid black;
+            overflow: auto; /* cria barra de rolagem */
+        }
+
+        div.area-a{
+            grid-area: a; /* usado para definir a variável da área */
+        }
+
+        div.area-b{
+            grid-area: b;
+        }
+
+        div.area-c{
+            grid-area: c;
+        }
+
+        div.area-d{
+            grid-area: d;
+        }
+
+        div.area-e{
+            grid-area: e;
+        }
+
+    </style>
+
+</head>
+<body>
+    <main>
+        <div class="area-a"><p>A</p></div>
+        <div class="area-b"><p>B</p></div>
+        <div class="area-c"><p>C</p></div>
+        <div class="area-d"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
+        </p></div>
+        <div class="area-e"><p>E</p></div>
+    </main>
+</body>
+</html>
