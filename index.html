@@ -1,73 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRID</title>
-
-    <style>
-        main{
-            margin: 0 auto;
-            max-width: 70em;
-            display: grid; /* é aplicado na div CONTEINER */
-            grid-template-rows: 10em 20em 10em; /* define o valor das LINHAS (1º valor -> 1ª LINHA, ... ) */
-            grid-template-columns: 1fr 4fr 1fr;
-            grid-template-areas: 
-                "a b b"
-                "a d e"
-                "c c e";
-            gap: 1em;
-        }
-
-        main div{
-            background-color: cadetblue;
-            padding: 2em;
-            border: 1px solid black;
-            overflow: auto; /* cria barra de rolagem */
-        }
-
-        div.area-a{
-            grid-area: a; /* usado para definir a variável da área */
-        }
-
-        div.area-b{
-            grid-area: b;
-        }
-
-        div.area-c{
-            grid-area: c;
-        }
-
-        div.area-d{
-            grid-area: d;
-        }
-
-        div.area-e{
-            grid-area: e;
-        }
-
-    </style>
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>POSITION</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="box box1" id="modal">
+        <button id="fecharmodal">(x) fechar</button>
+        BOX 1
+    </div>
+    <div class="box box2">BOX 2</div>
+    <div class="box box3">BOX 3</div>
+    
+    <header>
+        <h1>WTADS - 9 a 11 de Setembro</h1>
+    </header>
+    
     <main>
-        <div class="area-a"><p>A</p></div>
-        <div class="area-b"><p>B</p></div>
-        <div class="area-c"><p>C</p></div>
-        <div class="area-d"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in veniam officia a, id ratione quaerat adipisci placeat obcaecati. Mollitia esse labore illo! Maiores facere, aut fugiat dolore perspiciatis vel.
-        </p></div>
-        <div class="area-e"><p>E</p></div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi eius quam unde animi suscipit, reiciendis harum in sapiente, voluptatibus id eos illo? Aut at dolore nihil magnam porro beatae.</p>
+        <button id="abrirmodal">ABRIR</button>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi eius quam unde animi suscipit, reiciendis harum in sapiente, voluptatibus id eos illo? Aut at dolore nihil magnam porro beatae.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi eius quam unde animi suscipit, reiciendis harum in sapiente, voluptatibus id eos illo? Aut at dolore nihil magnam porro beatae.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi eius quam unde animi suscipit, reiciendis harum in sapiente, voluptatibus id eos illo? Aut at dolore nihil magnam porro beatae.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi eius quam unde animi suscipit, reiciendis harum in sapiente, voluptatibus id eos illo? Aut at dolore nihil magnam porro beatae.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi eius quam unde animi suscipit, reiciendis harum in sapiente, voluptatibus id eos illo? Aut at dolore nihil magnam porro beatae.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi eius quam unde animi suscipit, reiciendis harum in sapiente, voluptatibus id eos illo? Aut at dolore nihil magnam porro beatae.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi eius quam unde animi suscipit, reiciendis harum in sapiente, voluptatibus id eos illo? Aut at dolore nihil magnam porro beatae.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi eius quam unde animi suscipit, reiciendis harum in sapiente, voluptatibus id eos illo? Aut at dolore nihil magnam porro beatae.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi eius quam unde animi suscipit, reiciendis harum in sapiente, voluptatibus id eos illo? Aut at dolore nihil magnam porro beatae.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi eius quam unde animi suscipit, reiciendis harum in sapiente, voluptatibus id eos illo? Aut at dolore nihil magnam porro beatae.</p>
     </main>
+ 
+    <footer>
+        <p>Desenvolvido por IFRN</p>
+    </footer>
+
+    <script>
+        document.getElementById('fecharmodal').addEventListener('click',janela);
+        function janela(){
+            document.getElementById('modal').style.visibility='hidden';
+        }
+
+        document.getElementById('abrirmodal').addEventListener('click', caixa)
+        function caixa(){
+            document.getElementById('modal').style.visibility='visible'
+        }
+    </script>
 </body>
 </html>
