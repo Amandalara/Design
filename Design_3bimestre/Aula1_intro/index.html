@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, aliquam culpa. Beatae facere iste, voluptas voluptatem voluptate hic nesciunt sit. Deleniti ipsum veritatis omnis quibusdam ad quaerat, quod doloremque sint!</p>
+    <script>
+    document.write("CAIO NÃO USE O EDGE, POR FAVOR!!")
+    </script>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, aliquam culpa. Beatae facere iste, voluptas voluptatem voluptate hic nesciunt sit. Deleniti ipsum veritatis omnis quibusdam ad quaerat, quod doloremque sint!</p>
+    <p id="js">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, aliquam culpa. Beatae facere iste, voluptas voluptatem voluptate hic nesciunt sit. Deleniti ipsum veritatis omnis quibusdam ad quaerat, quod doloremque sint!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, aliquam culpa. Beatae facere iste, voluptas voluptatem voluptate hic nesciunt sit. Deleniti ipsum veritatis omnis quibusdam ad quaerat, quod doloremque sint!</p>
+    <button onclick="document.getElementById('js').style.color='blue'">Mudar</button>
+    <script>
+        
+        //alert(2 + 2); 
+        // window.confirm("Você aceita cookies?");
+        // window.prompt("Qual cor você quer de background?", "red"); 
+        var cor  =window.prompt("Qual cor você quer de background?", "red")
+        console.log("OLÁ MUNDO NO CONSOLE!"+cor)
+
+        document.getElementById("js").innerHTML = "OLÁ MUNDOOOOO!!"; 
+        document.getElementById("js").style.backgroundColor = "blue";
+    </script>
+</body>
+</html>
