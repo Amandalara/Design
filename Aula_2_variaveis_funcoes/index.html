@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p id="js"></p>
+    <p class="destaque"></p>
+    <script>
+        document.getElementById('js').innerHTML = "AULA 2";
+        document.getElementsByClassName('destaque')[0].innerHTML = "INFOWEB"; 
+        /*Retorna uma lista, para pegar todas as indices da lista basta usar o while/for */
+        /*O get.ElementById pega pelo id*/
+
+        let x = 10;
+        var y = 20; /*Não é mais usado*/
+        const z = 87; /*Não pode alterar o valor*/
+        console.log(z); 
+
+        let a = 10;
+        let b = 20;
+        let c = a+b; 
+        console.log(c); 
+
+        let pi = 3.14; 
+        let nome = 'INFOWEB'; 
+        let cores = ['blue', 'red', 'green'];
+        console.log(cores[1]); 
+        
+        let s = somar(10,40); 
+
+        function somar(a,b){
+            return a+b; 
+        }
+        console.log(s); 
+        /*console.log(somar(10,40))*/
+        /*Faz os elementos aparecerem no console*/
+
+        function bg(cor){
+            document.bgColor = cor; 
+        }
+
+        console.log(Math.random()*256);
+        function coresrandomicas(){
+            for(cont =1; cont <=50 ; cont++){
+            let r = Math.floor(Math.random()*256);
+            let g = Math.floor(Math.random()*256);
+            let b = Math.floor(Math.random()*256);
+                document.write("<div style= 'background-color: rgb("+r+", "+g+", "+b+")'>x</div>")
+            }
+        }
+        coresrandomicas()
+
+    </script>
+    <button onclick="bg('red')">vermelho</button>
+    <button onclick="bg('green')">verde</button>
+    <button onclick="bg('orange')">laranja</button>
+</body>
+</html>
